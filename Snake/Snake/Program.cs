@@ -10,7 +10,7 @@ namespace Snake
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("There is no snake... yet");
+            Console.WriteLine("There is no snake.. yet");
             Console.ReadLine();
         }
     }
