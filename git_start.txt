@@ -1,6 +1,0 @@
-clone 
-commit
-
-push
-f5
-pull
