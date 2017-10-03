@@ -10,9 +10,18 @@ namespace Snake
     {
         static void Main(string[] args)
         {
+            List <Point> pList = new List<Point>();
 
-            Point p1 = new Point(3, 5, '+');
-            p1.Draw();
+            for(int i = 0; i < 4; i++)
+            {
+                Point p = new Point(i, i+3, '*');
+                pList.Add(p);
+            }
+            
+            for(int j = 0; j < 4; j++)
+            {
+                pList[j].Draw();
+            }
 
             Console.ReadLine();
         }
