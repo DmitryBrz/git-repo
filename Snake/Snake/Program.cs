@@ -10,6 +10,7 @@ namespace Snake
     {
         static void Main(string[] args)
         {
+            /*
             List <Point> pList = new List<Point>();
 
             for(int i = 0; i < 4; i++)
@@ -22,6 +23,10 @@ namespace Snake
             {
                 pList[j].Draw();
             }
+            */
+
+            VerticalLine vLine = new VerticalLine(5, 3, 8, '*');
+            vLine.Draw();
 
             Console.ReadLine();
         }
